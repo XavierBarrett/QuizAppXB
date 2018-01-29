@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="questionone">1.What college did MJ play for?</string>
+    <string name="welcome">Welcome to the Jordan 23 Quiz!</string>
+    <string name="UNC">UNC</string>
+    <string name="duke">Duke</string>
+    <string name="nc_state">NC State</string>
+    <string name="questiontwo">2.What year did Jordan play on the Dream Team?</string>
+    <string name="questionthree">3. How many NBA Championships did Jordan win?</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="questionfour">4.What NBA team did Jordan comeback to play for after his 2nd retirement?</string>
+    <string name="questionfive">5.What shoe company passed on signing Jordan in 1984?</string>
+    <string name="questionsix">6.What sport did jordan play after his first retirement?</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="name">Name</string>
+    <string name="question2Year">Type answer here.</string>
+    <string name="question4Team">Type answer here.</string>
+    <string name="question5Company">Type answer here.</string>
+    <string name="question6Sport">Type answer here.</string>
+
+
+
+</resources>

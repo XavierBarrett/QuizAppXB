@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/basket"
+        >
+
+
+        <TextView
+            android:id="@+id/Welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="22sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <EditText
+            android:id="@+id/name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:textAllCaps="true"
+            android:inputType="text"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/question_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionone"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"/>
+
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="UNC"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/duke"
+                android:textColor="@android:color/holo_red_dark"/>
+
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/nc_state"
+                android:textColor="@android:color/holo_red_dark"/>
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questiontwo"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"/>
+
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type answer here."
+            android:textAllCaps="true"
+            android:inputType="text"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/question_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionthree"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"/>
+
+        <RadioGroup
+            android:id="@+id/radio_grouptwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/six"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <RadioButton
+                android:id="@+id/radio5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/seven"
+                android:textColor="@android:color/holo_red_dark"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionfour"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question2Year"
+            android:textAllCaps="true"
+            android:inputType="text"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/question_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionfive"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type answer here"
+            android:textAllCaps="true"
+            android:inputType="text"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/question_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionsix"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/Sport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type answer here."
+            android:textAllCaps="true"
+            android:inputType="text"
+            android:background="@color/colorAccent"/>
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SUBMIT"
+            android:onClick="submit"/>
+
+    </LinearLayout>
+
+</ScrollView>
